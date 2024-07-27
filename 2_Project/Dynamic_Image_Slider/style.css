@@ -1,0 +1,128 @@
+body{
+    background-image: url(./Assets/bg.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow:hidden;
+}
+.heading{
+    font-size:50px;
+    color: rgba(87, 2, 54, 0.822);
+    margin-left: 11%;
+}
+.slider{
+    height:350px;
+    width:550px;
+    margin-top:70px;
+    margin-left:7%;
+    overflow: hidden;
+}
+.slides{
+    display: flex;
+    gap:40px;
+}
+.slides input {
+    display: none;
+}
+.slide{
+    position: relative;
+    left:7%;
+    transition: 2s;
+}
+.slide img{
+    height:300px;
+    width:500px;
+    border-radius: 20px;
+}
+.des{
+    position: absolute;
+    text-align: center;
+    align-items: center;
+    top:30%;
+    background-color: rgba(255, 255, 255, 0.432);
+    padding:10px;
+    border-radius: 20px;
+    margin-left:10px;
+    margin-right:10px;
+}
+.dots {
+    position: absolute;
+    width: 800px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    margin-left:-100px;
+}
+.control{
+    border: 2px solid black;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+.control:not(:last-child) {
+    margin-right: 40px;
+}
+
+.control:hover {
+    background: black;
+}
+#img1:checked ~ .first {
+    margin-left: 0;
+}
+
+#img2:checked ~ .first {
+    margin-left: -540px;
+}
+
+#img3:checked ~ .first {
+    margin-left:-1080px;
+}
+
+#img4:checked ~ .first {
+    margin-left: -1620px;
+}
+
+@media (max-width:700px)
+{
+    body{
+        background-position: ce
+    }
+    .heading{
+        font-size:45px;
+        margin-left: 10%;
+    }
+    .slider{
+        height:300px;
+        width:500px;
+        margin-left:2%;
+    }
+    .slide img{
+        height:250px;
+        width:450px;
+    }
+    .slide{
+        left:2%;
+    }
+    .dots {
+        margin-top: 30px;
+        margin-left:-190px;
+    }
+    #img1:checked ~ .first {
+        margin-left: 0;
+    }
+    
+    #img2:checked ~ .first {
+        margin-left: -490px;
+    }
+    
+    #img3:checked ~ .first {
+        margin-left:-980px;
+    }
+    
+    #img4:checked ~ .first {
+        margin-left: -1470px;
+    }
+    body{
+        background-repeat: repeat;
+    }
+}
