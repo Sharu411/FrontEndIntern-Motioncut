@@ -17,7 +17,7 @@ This project is an animated login page designed to enhance user experience throu
 
 ## View Page
 
-- View my <a href="" target="_blank">Animated Login Page</a>
+- View my <a href="https://sharu411.github.io/FrontEndIntern-Motioncut/Animated_LoginPage/index.html" target="_blank">Animated Login Page</a>
 
 
 ---
@@ -41,7 +41,7 @@ The Dynamic Image Slider project features a sleek and responsive image slider th
 
 ## View Page
 
-- View my <a href="" target="_blank">Dynamic Image Slider</a>
+- View my <a href="https://sharu411.github.io/FrontEndIntern-Motioncut/Dynamic_Image_Slider/index.html" target="_blank">Dynamic Image Slider</a>
 
 
 ---
@@ -66,5 +66,5 @@ This project is an E-Commerce product page that showcases product details, revie
 
 ## View Page
 
-- View my <a href="" target="_blank">E-Commerce Product Page</a>
+- View my <a href="https://sharu411.github.io/FrontEndIntern-Motioncut/E-Commerce_ProductPage/index.html" target="_blank">E-Commerce Product Page</a>
 
