@@ -66,5 +66,5 @@ This project is an E-Commerce product page that showcases product details, revie
 
 ## View Page
 
-- View my <a href="https://sharu411.github.io/FrontEndIntern-Motioncut/E-Commerce_ProductPage/index.html" target="_blank">E-Commerce Product Page</a>
+- View my <a href="https://sharu411.github.io/FrontEndIntern-Motioncut/E_Commerce_ProductPage/index.html" target="_blank">E-Commerce Product Page</a>
 
